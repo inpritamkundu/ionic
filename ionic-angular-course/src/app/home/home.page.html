@@ -1,0 +1,35 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar color="danger">
+      <ion-title>
+        Budget Planner
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content color="primary">
+    <ion-grid>
+      <ion-row>
+        <ion-col size-md=6 offset-md=3>
+          <ion-card color="tertiary">
+            <ion-card-header><h1>Expense Data</h1></ion-card-header>
+            <ion-card-content >
+              <ion-item color="warning ">
+                <ion-label position="floating">Expense Reason</ion-label>
+                <ion-input type="text"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label position="floating">Expense Amount</ion-label>
+                <ion-input type="number"></ion-input>
+              </ion-item>
+              <div class="ion-margin-vertical ion-text-right">
+                <ion-button fill="outline" color="danger"><ion-icon name="close-outline" slot="end"></ion-icon>Clear</ion-button>
+                <ion-button color="success" class="ion-padding-start"><ion-icon name="add-circle-outline" slot="start"></ion-icon>Add Expense</ion-button>  
+              </div>
+              </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  </ion-content>
+</ion-app>
