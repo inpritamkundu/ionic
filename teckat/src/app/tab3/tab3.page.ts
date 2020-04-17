@@ -9,7 +9,7 @@ import { Router } from "@angular/router";
 export class Tab3Page {
   constructor(private router: Router) {}
 
-  explorer(blogId: string) {
+  blogExplorer(blogId: string) {
     this.router.navigateByUrl("/tabs/tab3/blog/" + blogId);
   }
 }

@@ -1,12 +1,18 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-tab1',
-  templateUrl: 'tab1.page.html',
-  styleUrls: ['tab1.page.scss']
+  selector: "app-tab1",
+  templateUrl: "tab1.page.html",
+  styleUrls: ["tab1.page.scss"],
 })
 export class Tab1Page {
-
-  constructor() {}
-
+  slideOpts = {
+    initialSlide: 0,
+    speed: 300,
+  };
+  constructor(private router: Router) {}
+  courseExplorer(courseId: String) {
+    this.router.navigateByUrl("/tabs/tab1/course/" + courseId);
+  }
 }

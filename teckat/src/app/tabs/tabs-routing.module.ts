@@ -14,6 +14,11 @@ const routes: Routes = [
             path: '',
             loadChildren: () =>
               import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+          },
+          {
+            path: 'course/:courseId',
+            loadChildren: () =>
+              import('../pages/course-explorer/course-explorer.module').then(m => m.CourseExplorerPageModule)
           }
         ]
       },
@@ -40,8 +45,19 @@ const routes: Routes = [
             loadChildren: () =>
               import('../pages/blog-explorer/blog-explorer.module').then(m => m.BlogExplorerPageModule)
           }
+          
         ]
       },
+      {
+        path: 'test',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../test/test.module').then(m => m.TestPageModule)
+          }
+        ]
+      },      
       {
         path: '',
         redirectTo: '/tabs/tab1',

@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: 'blog-explorer',
     loadChildren: () => import('./pages/blog-explorer/blog-explorer.module').then( m => m.BlogExplorerPageModule)
+  },
+  {
+    path: 'course-explorer',
+    loadChildren: () => import('./pages/course-explorer/course-explorer.module').then( m => m.CourseExplorerPageModule)
   }
 ];
 @NgModule({

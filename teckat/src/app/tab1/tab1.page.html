@@ -6,17 +6,64 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">  
+<ion-content [fullscreen]="true"> 
+
   <ion-grid style="color: black;">
     <ion-row>
       <ion-col size-lg=3 size=0>
       </ion-col>
       <ion-col size-lg=9 size=12>
+        <ion-slides class="hide-sm" pager="true" [options]="slideOpts">
+          <ion-slide>
+            <img src="https://via.placeholder.com/600x300/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/600x300/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/600x300/09f/fff.png">
+          </ion-slide>
+      
+        </ion-slides>
+        <ion-slides class="hide-md" pager="true" [options]="slideOpts">
+          <ion-slide>
+            <img src="https://via.placeholder.com/900x500/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/900x500/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/900x500/09f/fff.png">
+          </ion-slide>
+        </ion-slides>
+        <ion-slides class="hide-lg" pager="true" [options]="slideOpts">
+          <ion-slide>
+            <img src="https://via.placeholder.com/1024x450/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/1024x450/09f/fff.png">
+          </ion-slide>
+          <ion-slide>
+            <img src="https://via.placeholder.com/1024x450/09f/fff.png">
+          </ion-slide>
+        </ion-slides>
+        
+        <ion-slides class="hide-xl" pager="true" [options]="slideOpts">
+          <ion-slide>
+            <img src="/assets/images/1920x600.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img src="/assets/images/1920x600.jpg">
+          </ion-slide>
+          <ion-slide>
+            <img src="/assets/images/1920x600.jpg">
+          </ion-slide>
+        </ion-slides>
         <ion-grid>
           <ion-row>
             <ion-col size-md=6 size-lg=4 size =12>
-              <ion-card style="background-color: aliceblue;">
-                <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+              <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                 <ion-card-content>
                   <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                   <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -24,8 +71,8 @@
               </ion-card>
             </ion-col>
               <ion-col size-md=6 size-lg=4 size =12 >
-                <ion-card style="background-color: aliceblue;">
-                  <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                  <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                   <ion-card-content>
                     <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                     <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -33,8 +80,8 @@
                 </ion-card>
               </ion-col>
               <ion-col size-md=6 size-lg=4 size =12 >
-                <ion-card style="background-color: aliceblue;">
-                  <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                  <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                   <ion-card-content>
                     <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                     <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -42,8 +89,8 @@
                 </ion-card>
                 </ion-col>
                 <ion-col size-md=6 size-lg=4 size =12 >
-                  <ion-card style="background-color: aliceblue;">
-                    <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                  <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                    <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                     <ion-card-content>
                       <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                       <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -51,8 +98,8 @@
                   </ion-card>
                 </ion-col>
                 <ion-col size-md=6  size-lg=4 size =12 >
-                  <ion-card style="background-color: aliceblue;">
-                    <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                  <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                    <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                     <ion-card-content>
                       <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                       <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -60,8 +107,8 @@
                   </ion-card>
                   </ion-col>
                   <ion-col size-md=6  size-lg=4 size =12 >
-                    <ion-card style="background-color: aliceblue;">
-                      <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                    <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                      <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                       <ion-card-content>
                         <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                         <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -69,8 +116,8 @@
                     </ion-card>
                   </ion-col>
                   <ion-col size-md=6  size-lg=4 size =12 >
-                    <ion-card style="background-color: aliceblue;">
-                      <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                    <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                      <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                       <ion-card-content>
                         <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                         <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -78,8 +125,8 @@
                     </ion-card>
                   </ion-col>
                   <ion-col size-md=6  size-lg=4 size =12 >
-                    <ion-card style="background-color: aliceblue;">
-                      <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                    <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                      <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                       <ion-card-content>
                         <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                         <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -87,8 +134,8 @@
                     </ion-card>
                   </ion-col>
                   <ion-col size-md=6  size-lg=4 size =12 >
-                    <ion-card style="background-color: aliceblue;">
-                      <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                    <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                      <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                       <ion-card-content>
                         <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                         <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -96,8 +143,8 @@
                     </ion-card>
                   </ion-col>
                   <ion-col size-md=6  size-lg=4 size =12 >
-                    <ion-card style="background-color: aliceblue;">
-                      <ion-card-header><img src="https://via.placeholder.com/728x400/09f/fff.png"></ion-card-header>
+                    <ion-card (click)="courseExplorer('12457')" style="background-color: aliceblue;">
+                      <ion-card-header><img src="/assets/images/728x400.jpg"></ion-card-header>
                       <ion-card-content>
                         <h3 class="title">Entrepreneurship Nurturing Program</h3> 
                         <p>be the .master of your own mind and rebuilt yourself to accomplish everything</p>
@@ -110,3 +157,9 @@
     </ion-row>
   </ion-grid>
 </ion-content>
+<!-- 
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <app-tab-bar></app-tab-bar> 
+  </ion-toolbar>
+</ion-footer> -->
