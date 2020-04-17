@@ -34,6 +34,11 @@ const routes: Routes = [
             path: '',
             loadChildren: () =>
               import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+          },
+          {
+            path: 'blog/:blogId',
+            loadChildren: () =>
+              import('../pages/blog-explorer/blog-explorer.module').then(m => m.BlogExplorerPageModule)
           }
         ]
       },

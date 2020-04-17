@@ -1,3 +1,24 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+.feed-item{
+  --background:none;
+}
+.feed-label{
+  padding: 1rem;
+  color: black !important;
+}
+.feed-card{
+  background-color: aliceblue;
+  border-bottom-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+.read-more{
+  color: brown;
+  font-weight: bolder;
+  padding:1rem;
+}
+.read-icon{
+  padding-left: .3rem;
+  vertical-align:middle;
+}
