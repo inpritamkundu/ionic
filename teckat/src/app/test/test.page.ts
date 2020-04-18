@@ -9,13 +9,9 @@ import { Platform } from '@ionic/angular';
     
 })
 export class TestPage{
-  slideOpts = {
-    initialSlide: 0,
-    speed: 300
-  };
-  constructor(private router: Router,private platform: Platform) {}
 
-  
-  
+  constructor(private router: Router,private platform: Platform) {}  
+  segmentChanged(ev: any) {
+    console.log('Segment changed', ev);}
   
 }

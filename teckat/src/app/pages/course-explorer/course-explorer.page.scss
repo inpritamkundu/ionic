@@ -1,5 +1,4 @@
 .course-card{
-    background-color: aliceblue;
     border-radius: 1rem;
 }
 .course-header{
@@ -32,6 +31,12 @@ ion-checkbox{
     --checkmark-color:white;
     --size:1.2rem;
     --border-color-checked:skyblue;
+}
+
+.course-header-title
+{
+    margin-left: 2rem; 
+    vertical-align: middle;
 }
 
 .rect-auto,
