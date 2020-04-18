@@ -1,0 +1,67 @@
+ion-list {
+  background-color: transparent;
+}
+ion-item {
+  --background: transparent;
+  --color: black;
+}
+ion-textarea {
+  --background: white;
+  --padding-start: 1.5rem !important;
+  border: solid 1px crimson;
+}
+
+.reply-item-button {
+  margin-bottom: 3rem;
+}
+.reply-button {
+  height: 3rem;
+}
+.list-label {
+  font-weight: 600;
+}
+
+.list-thumbnail {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.list-item {
+  padding-bottom: 1rem;
+}
+.list-label-duration {
+  font-size: small;
+  margin-top: -0.5rem;
+}
+.list-label-description {
+  font-size: small;
+}
+.reply-thumbnail {
+  width: 3rem;
+  height: 3rem;
+}
+.floating-item {
+  margin-top: 2rem;
+}
+.reply-col {
+  margin-top: -1rem;
+}
+.reply-item {
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hide-md {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hide-xs {
+    display: none !important;
+  }
+}

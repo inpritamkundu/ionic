@@ -1,0 +1,23 @@
+ion-list {
+  background-color: transparent;
+}
+ion-item {
+  --background: transparent;
+  --color: black;
+  --inner-padding-bottom: 1.2rem;
+  --inner-padding-top: 1rem;
+}
+
+.list-header {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.list-item {
+  background-color: transparent;
+}
+
+.list-button {
+  margin-top: 1rem;
+}

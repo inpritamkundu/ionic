@@ -1,0 +1,28 @@
+ion-list {
+  background-color: transparent;
+}
+ion-item {
+  --background: transparent;
+  --color: black;
+}
+
+.filter-list {
+  border: solid 1px crimson;
+}
+.list-label {
+  font-weight: 600;
+}
+.list-thumbnail {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.list-item {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 567px) {
+  .hide {
+    display: none;
+  }
+}
