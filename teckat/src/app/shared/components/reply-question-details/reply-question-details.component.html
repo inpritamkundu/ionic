@@ -1,69 +1,37 @@
-<ion-grid>
-  <!-- question and explanation row -->
-  <ion-row>
-    <ion-col size-md="10" size="12">
-      <ion-list lines="none">
-        <ion-item class="reply-item-button">
-          <ion-button fill="outline" class="reply-button">
-            Back to all questions
-          </ion-button>
-        </ion-item>
-        <ion-item class="list-item">
+<ion-list lines="none">
+  <ion-item class="reply-item-button">
+    <ion-button fill="outline" class="reply-button">
+      Back to all questions
+    </ion-button>
+  </ion-item>
+  <ion-item class="list-item">
+    <ion-grid>
+      <ion-row>
+        <!-- thumbnail -->
+        <ion-col size="2">
+          <ion-avatar class="list-thumbnail">
+            <img
+              src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+            />
+          </ion-avatar>
+        </ion-col>
+
+        <!-- question and explanation -->
+        <ion-col size="9">
           <ion-grid>
-            <ion-row>
-              <!-- thumbnail -->
-              <ion-col size="2">
-                <ion-avatar class="list-thumbnail">
-                  <img
-                    src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                  />
-                </ion-avatar>
-              </ion-col>
-
-              <!-- question and explanation -->
-              <ion-col size="9">
-                <ion-grid>
-                  <!-- question -->
-                  <ion-row>
-                    <ion-col size="12">
-                      <ion-label class="list-label ion-text-wrap">
-                        How to call a unique items of "setbb" in difference
-                        operators?
-                      </ion-label>
-                    </ion-col>
-                  </ion-row>
-
-                  <!-- explanation -->
-                  <ion-row>
-                    <ion-col size="12">
-                      <ion-label class="hide-sm ion-text-wrap">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Officia itaque, unde porro obcaecati consequuntur
-                        vitae repellat impedit saepe nihil fugiat soluta harum
-                        officiis qui voluptates animi provident, perspiciatis
-                        omnis fugit earum sapiente corrupti quidem, autem
-                        aliquam. Doloribus molestias, esse sequi dolore
-                        consectetur, fuga cum et dolorem quidem odit impedit
-                        accusantium.
-                      </ion-label>
-                    </ion-col>
-                  </ion-row>
-                </ion-grid>
-              </ion-col>
-
-              <ion-col size="1" pull="1" pull-md="0">
-                <ion-grid>
-                  <ion-row>
-                    <ion-col size="12">
-                      <ion-icon name="heart" size="large"></ion-icon>
-                    </ion-col>
-                  </ion-row>
-                </ion-grid>
-              </ion-col>
-            </ion-row>
+            <!-- question -->
             <ion-row>
               <ion-col size="12">
-                <ion-label class="hide-md ion-text-wrap">
+                <ion-label class="list-label ion-text-wrap">
+                  How to call a unique items of "setbb" in difference operators?
+                </ion-label>
+              </ion-col>
+            </ion-row>
+
+            <!-- explanation -->
+            <ion-row>
+              <ion-col size="12">
+                <ion-label class="hide-sm ion-text-wrap">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Officia itaque, unde porro obcaecati consequuntur vitae
                   repellat impedit saepe nihil fugiat soluta harum officiis qui
@@ -75,203 +43,219 @@
               </ion-col>
             </ion-row>
           </ion-grid>
-        </ion-item>
-      </ion-list>
+        </ion-col>
 
-      <ion-row>
-        <ion-col size="12">
-          <ion-list>
-            <!-- item heading -->
-            <ion-item class="list-item">
-              <ion-grid>
-                <ion-row>
-                  <ion-col size-md="6" size="7" push-md="1">
-                    <ion-label class="list-label ion-text-wrap">
-                      [No.] replies.
-                    </ion-label>
-                  </ion-col>
-                  <ion-col size="5" push-md="3" push-lg="4">
-                    <ion-label class="list-label ion-text-wrap">
-                      Like replies
-                    </ion-label>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-item>
-
-            <!-- item 1 -->
-            <ion-item class="list-item">
-              <ion-grid>
-                <ion-row>
-                  <!-- thumbnail -->
-                  <ion-col size="2">
-                    <ion-avatar class="list-thumbnail">
-                      <img
-                        src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                      />
-                    </ion-avatar>
-                  </ion-col>
-
-                  <!-- reply and explanation -->
-                  <ion-col size="9">
-                    <ion-grid>
-                      <!-- instructor name -->
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label class="list-label ion-text-wrap">
-                            Teckat Services private limited
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-
-                      <!-- duration -->
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label class="list-label-duration ion-text-wrap">
-                            2 years ago.
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label
-                            class="hide-sm list-label-description ion-text-wrap"
-                          >
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Maiores quidem esse repellat labore,
-                            exercitationem veritatis voluptate odit facilis
-                            temporibus placeat.
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-                    </ion-grid>
-                  </ion-col>
-
-                  <ion-col size="1" pull="1" pull-md="0">
-                    <ion-grid>
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-icon name="heart" size="large"></ion-icon>
-                        </ion-col>
-                      </ion-row>
-                    </ion-grid>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col size="12">
-                    <ion-label
-                      class="hide-md list-label-description ion-text-wrap"
-                    >
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores quidem esse repellat labore, exercitationem
-                      veritatis voluptate odit facilis temporibus placeat.
-                    </ion-label>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-item>
-
-            <!-- item 2 -->
-            <ion-item class="list-item">
-              <ion-grid>
-                <ion-row>
-                  <!-- thumbnail -->
-                  <ion-col size="2">
-                    <ion-avatar class="list-thumbnail">
-                      <img
-                        src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                      />
-                    </ion-avatar>
-                  </ion-col>
-
-                  <!-- reply and explanation -->
-                  <ion-col size="9">
-                    <ion-grid>
-                      <!-- instructor name -->
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label class="list-label ion-text-wrap">
-                            Teckat Services private limited
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-
-                      <!-- duration -->
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label class="list-label-duration ion-text-wrap">
-                            2 years ago.
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-label
-                            class="hide-sm list-label-description ion-text-wrap"
-                          >
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Maiores quidem esse repellat labore,
-                            exercitationem veritatis voluptate odit facilis
-                            temporibus placeat.
-                          </ion-label>
-                        </ion-col>
-                      </ion-row>
-                    </ion-grid>
-                  </ion-col>
-
-                  <ion-col size="1" pull="1" pull-md="0">
-                    <ion-grid>
-                      <ion-row>
-                        <ion-col size="12">
-                          <ion-icon name="heart" size="large"></ion-icon>
-                        </ion-col>
-                      </ion-row>
-                    </ion-grid>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col size="12">
-                    <ion-label
-                      class="hide-md list-label-description ion-text-wrap"
-                    >
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Maiores quidem esse repellat labore, exercitationem
-                      veritatis voluptate odit facilis temporibus placeat.
-                    </ion-label>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-item>
-
-            <!-- reply input -->
-            <ion-item lines="none" class="reply-item">
-              <ion-grid>
-                <ion-row>
-                  <ion-col size-md="2" size="0">
-                    <ion-avatar class="hide-xs reply-thumbnail">
-                      <img
-                        src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                      />
-                    </ion-avatar>
-                  </ion-col>
-                  <ion-col size="9" size-md="8" class="reply-col">
-                    <ion-textarea
-                      auto-grow="true"
-                      placeholder="Add reply"
-                      rows="5"
-                    ></ion-textarea>
-                  </ion-col>
-                  <ion-col size="2" push="1">
-                    <ion-icon name="send" size="large"></ion-icon>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-item>
-          </ion-list>
+        <ion-col size="1" pull="1" pull-md="0">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="12">
+                <ion-icon name="heart" size="large"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
         </ion-col>
       </ion-row>
-    </ion-col>
-  </ion-row>
-</ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <ion-label class="hide-md ion-text-wrap">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+            itaque, unde porro obcaecati consequuntur vitae repellat impedit
+            saepe nihil fugiat soluta harum officiis qui voluptates animi
+            provident, perspiciatis omnis fugit earum sapiente corrupti quidem,
+            autem aliquam. Doloribus molestias, esse sequi dolore consectetur,
+            fuga cum et dolorem quidem odit impedit accusantium.
+          </ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item>
+</ion-list>
+
+<ion-row>
+  <ion-col size="12">
+    <ion-list>
+      <!-- item heading -->
+      <ion-item class="list-item">
+        <ion-grid>
+          <ion-row>
+            <ion-col size-md="6" size="7" push-md="1">
+              <ion-label class="list-label ion-text-wrap">
+                [No.] replies.
+              </ion-label>
+            </ion-col>
+            <ion-col size="5" push-md="3" push-lg="4">
+              <ion-label class="list-label ion-text-wrap">
+                Like replies
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+
+      <!-- item 1 -->
+      <ion-item class="list-item">
+        <ion-grid>
+          <ion-row>
+            <!-- thumbnail -->
+            <ion-col size="2">
+              <ion-avatar class="list-thumbnail">
+                <img
+                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+                />
+              </ion-avatar>
+            </ion-col>
+
+            <!-- reply and explanation -->
+            <ion-col size="9">
+              <ion-grid>
+                <!-- instructor name -->
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label class="list-label ion-text-wrap">
+                      Teckat Services private limited
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+
+                <!-- duration -->
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label class="list-label-duration ion-text-wrap">
+                      2 years ago.
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label
+                      class="hide-sm list-label-description ion-text-wrap"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores quidem esse repellat labore, exercitationem
+                      veritatis voluptate odit facilis temporibus placeat.
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+
+            <ion-col size="1" pull="1" pull-md="0">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-icon name="heart" size="large"></ion-icon>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="12">
+              <ion-label class="hide-md list-label-description ion-text-wrap">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quidem esse repellat labore, exercitationem veritatis
+                voluptate odit facilis temporibus placeat.
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+
+      <!-- item 2 -->
+      <ion-item class="list-item">
+        <ion-grid>
+          <ion-row>
+            <!-- thumbnail -->
+            <ion-col size="2">
+              <ion-avatar class="list-thumbnail">
+                <img
+                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+                />
+              </ion-avatar>
+            </ion-col>
+
+            <!-- reply and explanation -->
+            <ion-col size="9">
+              <ion-grid>
+                <!-- instructor name -->
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label class="list-label ion-text-wrap">
+                      Teckat Services private limited
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+
+                <!-- duration -->
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label class="list-label-duration ion-text-wrap">
+                      2 years ago.
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label
+                      class="hide-sm list-label-description ion-text-wrap"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores quidem esse repellat labore, exercitationem
+                      veritatis voluptate odit facilis temporibus placeat.
+                    </ion-label>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+
+            <ion-col size="1" pull="1" pull-md="0">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-icon name="heart" size="large"></ion-icon>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="12">
+              <ion-label class="hide-md list-label-description ion-text-wrap">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores quidem esse repellat labore, exercitationem veritatis
+                voluptate odit facilis temporibus placeat.
+              </ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+
+      <!-- reply input -->
+      <ion-item lines="none" class="reply-item">
+        <ion-grid>
+          <ion-row>
+            <ion-col size-md="2" size="0">
+              <ion-avatar class="hide-xs reply-thumbnail">
+                <img
+                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+                />
+              </ion-avatar>
+            </ion-col>
+            <ion-col size="9" size-md="8" class="reply-col">
+              <ion-textarea
+                auto-grow="true"
+                placeholder="Add reply"
+                rows="5"
+              ></ion-textarea>
+            </ion-col>
+            <ion-col size="2" push="1">
+              <ion-icon name="send" size="large"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-list>
+  </ion-col>
+</ion-row>

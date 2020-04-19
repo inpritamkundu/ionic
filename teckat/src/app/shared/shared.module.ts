@@ -7,6 +7,10 @@ import { BookmarkDetailsComponent } from "./components/bookmark-details/bookmark
 import { QuestionAnswerDetailsComponent } from "./components/question-answer-details/question-answer-details.component";
 import { ReplyQuestionDetailsComponent } from "./components/reply-question-details/reply-question-details.component";
 import { AskQuestionComponent } from "./components/ask-question/ask-question.component";
+import { AnnouncementsComponent } from "./components/announcements/announcements.component";
+import { ReadCommentsComponent } from "./components/read-comments/read-comments.component";
+import { CourseProgressComponent } from "./components/course-progress/course-progress.component";
+import { ProgressCircleComponent } from "./components/progress-circle/progress-circle.component";
 
 @NgModule({
   declarations: [
@@ -16,12 +20,20 @@ import { AskQuestionComponent } from "./components/ask-question/ask-question.com
     QuestionAnswerDetailsComponent,
     ReplyQuestionDetailsComponent,
     AskQuestionComponent,
+    AnnouncementsComponent,
+    ReadCommentsComponent,
+    CourseProgressComponent,
+    ProgressCircleComponent,
   ],
   imports: [IonicModule, CommonModule],
   exports: [
     TabBarComponent,
     CourseDetailsComponent,
     BookmarkDetailsComponent,
+    ProgressCircleComponent,
+    CourseProgressComponent,
+    ReadCommentsComponent,
+    AnnouncementsComponent,
     QuestionAnswerDetailsComponent,
     ReplyQuestionDetailsComponent,
     AskQuestionComponent,

@@ -34,7 +34,7 @@
                 </ion-segment-button>
 
                 <ion-segment-button value="pin">
-                  <ion-icon name="eye"></ion-icon>
+                  <ion-icon name="megaphone"></ion-icon>
                 </ion-segment-button>
               </ion-segment>
             </ion-col>
@@ -43,11 +43,25 @@
           <!-- course slider content -->
           <ion-row>
             <ion-col size="12" push-md="1">
-              <app-course-details></app-course-details>
-              <app-bookmark-details></app-bookmark-details>
-              <app-question-answer-details></app-question-answer-details>
-              <app-reply-question-details></app-reply-question-details>
-              <app-ask-question></app-ask-question>
+              <ion-grid>
+                <ion-row>
+                  <ion-col size-md="10" size="12">
+                    <app-course-details></app-course-details>
+                    <app-bookmark-details></app-bookmark-details>
+                    <app-question-answer-details></app-question-answer-details>
+                    <app-reply-question-details></app-reply-question-details>
+                    <app-ask-question></app-ask-question>
+                    <app-announcements></app-announcements>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+              <ion-grid class="ion-no-padding">
+                <ion-row>
+                  <ion-col size-md="10" size="12" class="ion-no-padding">
+                    <app-read-comments></app-read-comments>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
             </ion-col>
           </ion-row>
         </ion-grid>
@@ -55,245 +69,9 @@
 
       <!-- course content col -->
       <ion-col size-lg="4" size="0">
-        <ion-grid>
-          <ion-row>
-            <ion-col size-lg="12" size-xl="10" size="0" push-xl="2">
-              <ion-card class="course-card card">
-                <ion-card-header class="course-header">
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <div class="c100 p75 small orange">
-                          <span>75%</span>
-                          <div class="slice">
-                            <div class="bar"></div>
-                            <div class="fill"></div>
-                          </div>
-                        </div>
-                      </ion-col>
-                      <ion-col size="10">
-                        <br />
-                        <span class="course-header-title">Lorem, ipsum.</span>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-header>
-                <ion-card-content>
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-content>
-              </ion-card>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-
-        <ion-grid>
-          <ion-row>
-            <ion-col size-lg="12" size-xl="10" size="0" push-xl="2">
-              <ion-card class="course-card card">
-                <ion-card-header class="course-header">
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <div class="c100 p75 small orange">
-                          <span>75%</span>
-                          <div class="slice">
-                            <div class="bar"></div>
-                            <div class="fill"></div>
-                          </div>
-                        </div>
-                      </ion-col>
-                      <ion-col size="10">
-                        <br />
-                        <span class="course-header-title">Lorem, ipsum.</span>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-header>
-                <ion-card-content>
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-content>
-              </ion-card>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-
-        <ion-grid>
-          <ion-row>
-            <ion-col size-lg="12" size-xl="10" size="0" push-xl="2">
-              <ion-card class="course-card card">
-                <ion-card-header class="course-header">
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <div class="c100 p75 small orange">
-                          <span>75%</span>
-                          <div class="slice">
-                            <div class="bar"></div>
-                            <div class="fill"></div>
-                          </div>
-                        </div>
-                      </ion-col>
-                      <ion-col size="10">
-                        <br />
-                        <span class="course-header-title">Lorem, ipsum.</span>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-header>
-                <ion-card-content>
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="2">
-                        <ion-checkbox class="course-checkbox"></ion-checkbox>
-                      </ion-col>
-                      <ion-col size="10">
-                        <ion-card-title class="course-title">
-                          Lorem, ipsum dolor.
-                          <ion-card-subtitle class="course-subtitle">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus, similique!
-                          </ion-card-subtitle>
-                        </ion-card-title>
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-                </ion-card-content>
-              </ion-card>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
+        <app-course-progress></app-course-progress>
+        <app-course-progress></app-course-progress>
+        <app-course-progress></app-course-progress>
       </ion-col>
     </ion-row>
   </ion-grid>

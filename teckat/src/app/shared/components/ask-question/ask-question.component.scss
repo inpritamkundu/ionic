@@ -5,10 +5,52 @@ ion-item {
   --background: transparent;
   --color: black;
 }
+ion-card {
+  background: transparent;
+}
+ion-input {
+  --background: white;
+  --padding-start: 1.5rem !important;
+  border: solid 1px crimson;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+ion-textarea {
+  --background: white;
+  --padding-start: 1.5rem !important;
+  border: solid 1px crimson;
+  border-radius: 1rem;
+}
 
 .reply-item-button {
   margin-bottom: 3rem;
 }
 .reply-button {
   height: 3rem;
+}
+.card-header {
+  color: black;
+  font-weight: 600;
+}
+.list-thumbnail {
+  width: 3rem;
+  height: 3rem;
+}
+.list-item {
+  margin-top: 2rem;
+}
+.list-label {
+  font-weight: 600;
+  color: black;
+}
+.card-instructor {
+  margin-top: 2rem;
+}
+.input-label {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.publish-button {
+  font-size: medium;
+  margin-top: 1.5rem;
 }

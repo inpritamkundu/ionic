@@ -1,0 +1,35 @@
+ion-list {
+  background-color: transparent;
+}
+ion-item {
+  --background: transparent;
+  --color: black;
+}
+
+.list-label-duration {
+  font-size: small;
+  padding-bottom: 1rem;
+}
+.list-label-description {
+  font-size: small;
+}
+.list-label {
+  font-weight: 600;
+}
+
+.list-thumbnail {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hide-md {
+    display: none !important;
+  }
+}

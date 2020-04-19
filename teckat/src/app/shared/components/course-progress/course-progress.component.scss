@@ -1,0 +1,38 @@
+.course-card {
+  border-radius: 1rem;
+}
+
+.course-header {
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(54, 51, 51);
+  margin-bottom: -1.5rem;
+}
+
+.course-title {
+  color: black;
+  font-size: larger;
+  padding-top: 1rem;
+}
+.course-subtitle {
+  font-size: small;
+  padding-top: 0.3rem;
+}
+.course-checkbox {
+  margin-top: 1.7rem;
+  margin-left: 0.5rem;
+}
+ion-checkbox {
+  --border-radius: 50%;
+  --background: white;
+  --border-color: black;
+  --border-width: 1px;
+  --checkmark-color: white;
+  --size: 1.2rem;
+  --border-color-checked: skyblue;
+}
+
+.course-header-title {
+  margin-left: 2rem;
+  vertical-align: middle;
+}

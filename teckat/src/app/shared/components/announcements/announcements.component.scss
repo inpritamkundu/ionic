@@ -1,0 +1,48 @@
+ion-item {
+  --background: transparent;
+  --color: black;
+}
+ion-textarea {
+  --background: white;
+  --padding-start: 1.5rem !important;
+  border: solid 1px crimson;
+}
+ion-list {
+  background-color: transparent;
+}
+
+.list-thumbnail {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+
+.instructor-label {
+  font-weight: 600;
+  color: black;
+}
+.instructor-time {
+  font-size: small;
+}
+.label-heading {
+  font-weight: 600;
+}
+.label-content {
+  font-size: small;
+}
+.comment-thumbnail {
+  width: 3rem;
+  height: 3rem;
+}
+.comment-col {
+  margin-top: -1rem;
+}
+.comment-item {
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .hide-xs {
+    display: none !important;
+  }
+}
