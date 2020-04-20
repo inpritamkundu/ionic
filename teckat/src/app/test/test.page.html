@@ -1,13 +1,25 @@
 <ion-header>
-  <ion-toolbar class="header">
-    <ion-title>
-      test
-    </ion-title>
-  </ion-toolbar>
+  <div class="nav">
+    <input type="checkbox" id="nav-check" />
+    <div class="nav-header">
+      <div class="nav-title">
+        Teckat
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="//github.io/jo_geek">Home</a>
+      <a href="https://in.linkedin.com/in/jonesvinothjoseph">Courses </a>
+      <a href="https://codepen.io/jo_Geek/">Feeds</a>
+      <a href="https://jsfiddle.net/user/jo_Geek/">Test</a>
+    </div>
+  </div>
 </ion-header>
 
+<app-menu-bar></app-menu-bar>
+
 <ion-content>
-  <ion-grid style="color: black;">
+  <ion-grid>
     <ion-row>
       <ion-col size-lg="8" size="12">
         <ion-grid>
@@ -21,8 +33,12 @@
             <ion-col size="12">
               <!-- scrollable segment -->
               <ion-segment scrollable value="home">
-                <ion-segment-button value="star">
+                <ion-segment-button value="circle" class="hide-lg">
                   <ion-icon name="analytics"></ion-icon>
+                </ion-segment-button>
+
+                <ion-segment-button value="star">
+                  <ion-icon name="medal"></ion-icon>
                 </ion-segment-button>
 
                 <ion-segment-button value="home">
@@ -69,9 +85,15 @@
 
       <!-- course content col -->
       <ion-col size-lg="4" size="0">
-        <app-course-progress></app-course-progress>
-        <app-course-progress></app-course-progress>
-        <app-course-progress></app-course-progress>
+        <ion-grid>
+          <ion-row>
+            <ion-col size-lg="12" size-xl="10" size="0" push-xl="1">
+              <app-course-progress></app-course-progress>
+              <app-course-progress></app-course-progress>
+              <app-course-progress></app-course-progress>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-col>
     </ion-row>
   </ion-grid>

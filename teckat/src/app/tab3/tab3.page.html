@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar class ="header">
+  <ion-toolbar class="header">
     <ion-title>
       Feeds
     </ion-title>
@@ -9,148 +9,30 @@
 <ion-content [fullscreen]="true">
   <ion-grid>
     <ion-row>
-
-      <ion-col size-md=3 size=0>
-      </ion-col>
-
-      <ion-col size-md=9 size=12>
+      <ion-col size="12">
         <ion-grid>
           <ion-row>
-          
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                 <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
+            <ion-col size-lg="6" size-md="6" size-xl="4">
+              <app-blog-card></app-blog-card>
             </ion-col>
-      
-            <ion-col size-lg=6 size-md=6 size-xl=4>
-              <ion-card (click)="blogExplorer('io123')" class="feed-card">
-                <ion-item-sliding>
-                  
-                  <ion-item class="feed-item" lines="none">
-                    <ion-avatar slot="start" class="feed-thumbnail">
-                      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-                    </ion-avatar>
-                    <ion-label class="feed-label"><h2>Lorem, ipsum.</h2></ion-label>
-                  </ion-item>
-                  <ion-item-options side="end">
-                    <ion-item-option color="primary"><ion-icon slot="icon-only" name="trash"></ion-icon></ion-item-option>
-                  </ion-item-options>
-                </ion-item-sliding>
-                <ion-card-content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, facere? Laudantium amet doloremque quod, vitae magni sed cupiditate pariatur labore dignissimos vero sapiente ullam excepturi voluptatibus quos dolorem non quisquam!<span class="read-more">Read More<ion-icon name="arrow-forward-circle-outline" class="read-icon"></ion-icon></span></ion-card-content>
-              </ion-card>
-            </ion-col>
-
           </ion-row>
         </ion-grid>
-        
-  
       </ion-col>
-      
     </ion-row>
   </ion-grid>
-
-  
 </ion-content>

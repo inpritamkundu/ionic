@@ -11,6 +11,10 @@ import { AnnouncementsComponent } from "./components/announcements/announcements
 import { ReadCommentsComponent } from "./components/read-comments/read-comments.component";
 import { CourseProgressComponent } from "./components/course-progress/course-progress.component";
 import { ProgressCircleComponent } from "./components/progress-circle/progress-circle.component";
+import { CourseCardComponent } from "./components/course-card/course-card.component";
+import { SliderComponent } from "./components/slider/slider.component";
+import { BlogCardComponent } from "./components/blog-card/blog-card.component";
+import { MenuBarComponent } from "./components/menu-bar/menu-bar.component";
 
 @NgModule({
   declarations: [
@@ -24,12 +28,18 @@ import { ProgressCircleComponent } from "./components/progress-circle/progress-c
     ReadCommentsComponent,
     CourseProgressComponent,
     ProgressCircleComponent,
+    CourseCardComponent,
+    SliderComponent,
+    BlogCardComponent,
+    MenuBarComponent,
   ],
   imports: [IonicModule, CommonModule],
   exports: [
     TabBarComponent,
     CourseDetailsComponent,
     BookmarkDetailsComponent,
+    SliderComponent,
+    CourseCardComponent,
     ProgressCircleComponent,
     CourseProgressComponent,
     ReadCommentsComponent,
@@ -37,6 +47,8 @@ import { ProgressCircleComponent } from "./components/progress-circle/progress-c
     QuestionAnswerDetailsComponent,
     ReplyQuestionDetailsComponent,
     AskQuestionComponent,
+    MenuBarComponent,
+    BlogCardComponent,
   ],
 })
 export class SharedModule {}

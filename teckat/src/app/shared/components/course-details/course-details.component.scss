@@ -10,7 +10,6 @@ ion-item {
 
 .list-header {
   font-size: 1.5rem;
-  color: black;
   font-weight: 600;
 }
 
@@ -20,4 +19,8 @@ ion-item {
 
 .list-button {
   margin-top: 1rem;
+  --background: #f23a;
+}
+.size {
+  font-size: 13px;
 }

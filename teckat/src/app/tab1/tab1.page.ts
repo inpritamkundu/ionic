@@ -7,10 +7,6 @@ import { Router } from "@angular/router";
   styleUrls: ["tab1.page.scss"],
 })
 export class Tab1Page {
-  slideOpts = {
-    initialSlide: 0,
-    speed: 300,
-  };
   constructor(private router: Router) {}
   courseExplorer(courseId: String) {
     this.router.navigateByUrl("/tabs/tab1/course/" + courseId);

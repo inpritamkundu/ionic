@@ -29,6 +29,7 @@ ion-list {
 }
 .label-content {
   font-size: small;
+  font-family: "Baloo 2", cursive;
 }
 .comment-thumbnail {
   width: 3rem;
@@ -39,6 +40,9 @@ ion-list {
 }
 .comment-item {
   margin-top: 4rem;
+}
+.read-comment {
+  font-family: "Baloo 2", cursive;
 }
 
 @media only screen and (max-width: 500px) {

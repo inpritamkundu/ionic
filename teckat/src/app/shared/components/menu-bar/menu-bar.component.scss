@@ -1,0 +1,54 @@
+.my-custom-menu {
+  --width: 500px;
+}
+ion-list {
+  background-color: #ffffff;
+}
+ion-item {
+  --background: #ffffff;
+  --color: rgb(80, 77, 77);
+}
+ion-menu {
+  --background: #ffffff;
+  --width: 15rem;
+}
+ion-content {
+  --background: #ffffff;
+}
+ion-badge {
+  --background: rgb(228, 228, 228);
+  --color: rgb(56, 55, 55);
+}
+
+.header-heading {
+  border-radius: 1rem;
+  --background: rgb(228, 228, 228);
+  color: rgb(56, 55, 55);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.header-content {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.footer-heading {
+  --background: #ffffff;
+  color: rgb(56, 55, 55);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer-content {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.feed-thumbnail {
+  height: 2rem;
+  width: 2rem;
+}
+.footer-label {
+  font-size: 10px;
+  font-weight: 520;
+  color: rgb(56, 55, 55);
+}

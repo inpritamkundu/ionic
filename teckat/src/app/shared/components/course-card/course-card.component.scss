@@ -1,0 +1,12 @@
+.bg-image {
+  --background: url("/assets/images/courses/background.png") 0 0/100% 100%
+    no-repeat;
+}
+.bg-background {
+  background: linear-gradient(-100deg, #ffaa3b 0%, #e23a7f 100%);
+  box-shadow: -10px 10px 12px;
+}
+.sub-title {
+  color: #d7d8da;
+  padding-top: 0.5rem;
+}

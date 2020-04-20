@@ -104,7 +104,7 @@
 .c100.p99 .fill,
 .c100.p100 .fill {
   position: absolute;
-  border: 0.08em solid #307bbb;
+  border: 0.08em solid #f23a;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -258,7 +258,7 @@
   width: 5em;
   line-height: 5em;
   font-size: 0.2em;
-  color: #cccccc;
+  color: #f23a;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -1062,4 +1062,19 @@
 }
 .c100.orange.dark:hover > span {
   color: #e08833;
+}
+
+.c100.custom .bar,
+.c100.custom .fill {
+  border-color: #f23a !important;
+}
+.c100.custom:hover > span {
+  color: #f23a;
+}
+.c100.custom.dark .bar,
+.c100.custom.dark .fill {
+  border-color: #f23a !important;
+}
+.c100.custom.dark:hover > span {
+  color: #f23a;
 }
