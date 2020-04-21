@@ -5,44 +5,39 @@ ion-item {
 ion-textarea {
   --background: white;
   --padding-start: 1.5rem !important;
-  border: solid 1px crimson;
+  box-shadow: 1px 1px 5px #f23a;
 }
 ion-list {
   background-color: transparent;
 }
 
+.icon {
+  color: #f23a;
+}
 .list-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-top: 0.5rem;
 }
 
 .instructor-label {
   font-weight: 600;
-  color: black;
-}
-.instructor-time {
-  font-size: small;
 }
 .label-heading {
   font-weight: 600;
 }
-.label-content {
-  font-size: small;
-  font-family: "Baloo 2", cursive;
+.read-comment {
+  font-weight: 600;
 }
 .comment-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .comment-col {
   margin-top: -1rem;
 }
 .comment-item {
   margin-top: 4rem;
-}
-.read-comment {
-  font-family: "Baloo 2", cursive;
 }
 
 @media only screen and (max-width: 500px) {

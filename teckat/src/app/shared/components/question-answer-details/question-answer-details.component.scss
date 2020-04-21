@@ -4,17 +4,37 @@ ion-list {
 ion-item {
   --background: transparent;
   --color: black;
+  --border-color: #f23a;
+}
+ion-searchbar {
+  --placeholder-color: #363333;
+  --placeholder-font-weight: 400;
+  --box-shadow: 0.5px 0.5px 2.2px 1px;
+  color: #f23a !important;
+}
+
+.icon-heart {
+  color: #f23a;
+}
+.icon-chat {
+  color: #363333;
+}
+.alert-wrapper {
+  background: #f23a;
 }
 
 .filter-list {
-  border: solid 1px crimson;
+  // border: solid 1px #f23a;
+  box-shadow: 1px 1px 7px #f23a;
+  margin-top: 1rem;
 }
 .list-label {
   font-weight: 600;
+  font-size: 16px;
 }
 .list-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-top: 1rem;
 }
 .list-item {

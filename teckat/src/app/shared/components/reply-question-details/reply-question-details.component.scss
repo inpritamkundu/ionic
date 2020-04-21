@@ -8,9 +8,20 @@ ion-item {
 ion-textarea {
   --background: white;
   --padding-start: 1.5rem !important;
-  border: solid 1px crimson;
+  box-shadow: 1px 1px 5px #f23a;
+}
+ion-button {
+  color: #f23a;
+  --border-color: #f23a;
+  --background-hover: #f23a;
 }
 
+.icon-send {
+  color: #f23a;
+}
+.icon-heart {
+  color: #f23a;
+}
 .reply-item-button {
   margin-bottom: 3rem;
 }
@@ -22,23 +33,19 @@ ion-textarea {
 }
 
 .list-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-top: 1rem;
 }
 .list-item {
   padding-bottom: 1rem;
 }
 .list-label-duration {
-  font-size: small;
   margin-top: -0.5rem;
 }
-.list-label-description {
-  font-size: small;
-}
 .reply-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .floating-item {
   margin-top: 2rem;

@@ -6,22 +6,31 @@ ion-item {
   --color: black;
 }
 ion-card {
-  background: transparent;
+  background: #f5f5f5;
+  border-radius: 1rem;
 }
 ion-input {
   --background: white;
   --padding-start: 1.5rem !important;
-  border: solid 1px crimson;
+  box-shadow: 1px 1px 5px #f23a;
   margin-top: 0.5rem;
   border-radius: 1rem;
 }
 ion-textarea {
   --background: white;
   --padding-start: 1.5rem !important;
-  border: solid 1px crimson;
+  box-shadow: 1px 1px 5px #f23a;
   border-radius: 1rem;
 }
+ion-button {
+  color: #f23a;
+  --border-color: #f23a;
+  --background-hover: #f23a;
+}
 
+.icon {
+  color: #f23a;
+}
 .reply-item-button {
   margin-bottom: 3rem;
 }
@@ -29,19 +38,17 @@ ion-textarea {
   height: 3rem;
 }
 .card-header {
-  color: black;
   font-weight: 600;
 }
 .list-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .list-item {
   margin-top: 2rem;
 }
 .list-label {
   font-weight: 600;
-  color: black;
 }
 .card-instructor {
   margin-top: 2rem;
@@ -53,4 +60,6 @@ ion-textarea {
 .publish-button {
   font-size: medium;
   margin-top: 1.5rem;
+  --background: #f23a;
+  color: white;
 }

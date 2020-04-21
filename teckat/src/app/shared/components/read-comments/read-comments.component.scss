@@ -7,20 +7,19 @@ ion-item {
 }
 
 .list-label-duration {
-  font-size: small;
   padding-bottom: 1rem;
-}
-.list-label-description {
-  font-size: small;
 }
 .list-label {
   font-weight: 600;
 }
 
 .list-thumbnail {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-top: 1rem;
+}
+.icon-heart {
+  color: #f23a;
 }
 
 @media only screen and (max-width: 768px) {

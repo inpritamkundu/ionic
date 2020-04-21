@@ -7,7 +7,9 @@ ion-item {
   --inner-padding-bottom: 1rem;
   --inner-padding-top: 1rem;
 }
-
+.label-module {
+  font-size: 14px !important;
+}
 .list-icon {
   padding-left: 0.5rem;
 }
@@ -17,7 +19,7 @@ ion-item {
 
 .list-label-heading {
   margin-top: 0.3rem;
-  font-size: larger;
+  font-size: 24px;
   font-weight: 600;
 }
 .list-label {

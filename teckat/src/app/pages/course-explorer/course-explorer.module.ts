@@ -1,20 +1,22 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
 
-import { IonicModule } from '@ionic/angular';
+import { IonicModule } from "@ionic/angular";
 
-import { CourseExplorerPageRoutingModule } from './course-explorer-routing.module';
+import { CourseExplorerPageRoutingModule } from "./course-explorer-routing.module";
 
-import { CourseExplorerPage } from './course-explorer.page';
+import { CourseExplorerPage } from "./course-explorer.page";
+import { SharedModule } from "src/app/shared/shared.module";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CourseExplorerPageRoutingModule
+    SharedModule,
+    CourseExplorerPageRoutingModule,
   ],
-  declarations: [CourseExplorerPage]
+  declarations: [CourseExplorerPage],
 })
 export class CourseExplorerPageModule {}

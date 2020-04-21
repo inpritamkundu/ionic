@@ -10,8 +10,8 @@
   <ion-col size-md="3" push-md="1" size="6" offset="3" offset-md="0">
     <ion-list lines="none">
       <ion-item class="filter-list">
-        <ion-label>Lectures</ion-label>
-        <ion-select interface="popover">
+        <ion-label class="font-baloo2 color-content">Lectures</ion-label>
+        <ion-select>
           <ion-select-option value="f">
             All Lectures
           </ion-select-option>
@@ -26,7 +26,7 @@
   <ion-col size-md="3" push-md="1" size="6" offset="3" offset-md="0">
     <ion-list lines="none">
       <ion-item class="filter-list">
-        <ion-label>Sort</ion-label>
+        <ion-label class="font-baloo2 color-content">Sort</ion-label>
         <ion-select interface="popover">
           <ion-select-option value="f">
             Sort By Most Recent
@@ -42,7 +42,7 @@
   <ion-col size-md="3" push-md="1" size="6" offset="3" offset-md="0">
     <ion-list lines="none">
       <ion-item class="filter-list">
-        <ion-label>Filter</ion-label>
+        <ion-label class="font-baloo2 color-content">Filter</ion-label>
         <ion-select multiple="true" interface="popover">
           <ion-select-option value="f">
             Questions i Liked
@@ -65,12 +65,16 @@
         <ion-grid>
           <ion-row>
             <ion-col size-md="6" size="7">
-              <ion-label class="list-label ion-text-wrap">
+              <ion-label
+                class="list-label ion-text-wrap color-heading size-subtitle font-poppins"
+              >
                 [No.] questions in the lecture
               </ion-label>
             </ion-col>
             <ion-col size="5" push-md="1" push-lg="2">
-              <ion-label class="list-label ion-text-wrap">
+              <ion-label
+                class="list-label ion-text-wrap color-heading size-subtitle font-poppins"
+              >
                 Ask a new question
               </ion-label>
             </ion-col>
@@ -97,7 +101,9 @@
                 <!-- question -->
                 <ion-row>
                   <ion-col size="12">
-                    <ion-label class="list-label ion-text-wrap">
+                    <ion-label
+                      class="list-label ion-text-wrap color-subtitle size-subtitle font-poppins"
+                    >
                       How to call a unique items of "setbb" in difference
                       operators?
                     </ion-label>
@@ -107,7 +113,9 @@
                 <!-- explanation -->
                 <ion-row>
                   <ion-col size="12">
-                    <ion-label class="hide ion-text-wrap font-baloo2">
+                    <ion-label
+                      class="hide ion-text-wrap font-baloo2 color-content size-content"
+                    >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Officia itaque, unde porro obcaecati consequuntur vitae
                       repellat impedit saepe nihil fugiat soluta harum officiis
@@ -125,69 +133,18 @@
               <ion-grid>
                 <ion-row>
                   <ion-col size="12">
-                    <ion-icon name="heart" size="large"></ion-icon>
+                    <ion-icon
+                      name="heart"
+                      class="icon-heart"
+                      size="large"
+                    ></ion-icon>
                   </ion-col>
                   <ion-col size="12">
-                    <ion-icon name="chatbubbles" size="large"></ion-icon>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-item>
-
-      <!-- item 3 -->
-      <ion-item class="list-item">
-        <ion-grid>
-          <ion-row>
-            <!-- thumbnail -->
-            <ion-col size="2">
-              <ion-avatar class="list-thumbnail">
-                <img
-                  src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                />
-              </ion-avatar>
-            </ion-col>
-
-            <!-- question and explanation -->
-            <ion-col size="9">
-              <ion-grid>
-                <!-- question -->
-                <ion-row>
-                  <ion-col size="12">
-                    <ion-label class="list-label ion-text-wrap">
-                      How to call a unique items of "setbb" in difference
-                      operators?
-                    </ion-label>
-                  </ion-col>
-                </ion-row>
-
-                <!-- explanation -->
-                <ion-row>
-                  <ion-col size="12">
-                    <ion-label class="hide ion-text-wrap font-baloo2">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Officia itaque, unde porro obcaecati consequuntur vitae
-                      repellat impedit saepe nihil fugiat soluta harum officiis
-                      qui voluptates animi provident, perspiciatis omnis fugit
-                      earum sapiente corrupti quidem, autem aliquam. Doloribus
-                      molestias, esse sequi dolore consectetur, fuga cum et
-                      dolorem quidem odit impedit accusantium.
-                    </ion-label>
-                  </ion-col>
-                </ion-row>
-              </ion-grid>
-            </ion-col>
-
-            <ion-col size="1" pull="1" pull-md="0">
-              <ion-grid>
-                <ion-row>
-                  <ion-col size="12">
-                    <ion-icon name="heart" size="large"></ion-icon>
-                  </ion-col>
-                  <ion-col size="12">
-                    <ion-icon name="chatbubbles" size="large"></ion-icon>
+                    <ion-icon
+                      name="chatbubbles"
+                      class="icon-chat"
+                      size="large"
+                    ></ion-icon>
                   </ion-col>
                 </ion-row>
               </ion-grid>
