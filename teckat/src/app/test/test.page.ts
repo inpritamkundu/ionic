@@ -1,17 +1,18 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { Platform } from '@ionic/angular';
+import { Platform } from "@ionic/angular";
 
 @Component({
   selector: "app-test",
   templateUrl: "test.page.html",
-  styleUrls: ["test.page.scss"]
-    
+  styleUrls: ["test.page.scss"],
 })
-export class TestPage{
+export class TestPage {
+  public activeTab = "detail";
+  constructor(private router: Router, private platform: Platform) {}
 
-  constructor(private router: Router,private platform: Platform) {}  
   segmentChanged(ev: any) {
-    console.log('Segment changed', ev);}
-  
+    console.log("Segment changed", ev);
+    this.activeTab = ev.detail.value;
+  }
 }
