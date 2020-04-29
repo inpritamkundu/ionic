@@ -1,0 +1,43 @@
+ion-list {
+  background-color: transparent;
+}
+ion-item {
+  --background: transparent;
+  --color: black;
+}
+
+.list-label-duration {
+  padding-bottom: 1rem;
+}
+.list-label {
+  font-weight: 600;
+}
+
+.list-thumbnail {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+.icon-heart {
+  color: #f23a;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+// star rating
+.star-size {
+  font-size: 24px;
+  color: #c5c5c5;
+}
+.checked {
+  color: orange !important;
+}
